@@ -1,0 +1,5 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_build_it_bigger"
+    android:layout_width="@dimen/button_width"
+    android:layout_height="@dimen/button_width"
+    android:src="@drawable/photo_big" />

@@ -1,0 +1,6 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_build_it_bigger"
+    android:layout_width="@dimen/button_width"
+    android:layout_height="wrap_content"
+    android:text="@string/BUILD_IT_BIGGER"
+    android:theme="@style/ButtonStyle.Project" />

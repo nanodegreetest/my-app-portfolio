@@ -1,0 +1,6 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_spotify_streamer"
+    android:layout_width="@dimen/button_width"
+    android:layout_height="wrap_content"
+    android:text="@string/SPOTIFY_STREAMER"
+    android:theme="@style/ButtonStyle.Project" />

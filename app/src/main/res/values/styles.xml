@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff424cff</item>
+        <item name="colorPrimaryDark">#ff0d0ba0</item>
+        <item name="colorAccent">#fff0e052</item>
+        <item name="android:windowBackground">@color/app_background</item>
+
+        <item name="android:textColorPrimary">#000000</item>
+
+    </style>
+
+    <style name="FontHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="colorButtonNormal">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="ButtonStyle.Project" >
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="colorButtonNormal">?android:attr/colorPrimary</item>
+        <item name="backgroundTint">@color/app_background</item>
+    </style>
+
+    <style name="ButtonStyle.Capstone">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="colorButtonNormal">?android:attr/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,128 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TableRow android:gravity="center_horizontal">
+
+        <include layout="@layout/inc_text_banner" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_streamer"
+                layout="@layout/inc_image_streamer" />
+
+            <include
+                layout="@layout/inc_button_streamer"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_streamer" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_scores"
+                layout="@layout/inc_image_scores" />
+
+            <include
+                layout="@layout/inc_button_scores"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_scores" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_lib"
+                layout="@layout/inc_image_library" />
+
+            <include
+                layout="@layout/inc_button_library"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_lib" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_build_it_bigger"
+                layout="@layout/inc_image_builditbig" />
+
+            <include
+                layout="@layout/inc_button_builditbig"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_build_it_bigger" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_xyzreader"
+                layout="@layout/inc_image_xyzreader" />
+
+            <include
+                layout="@layout/inc_button_xyzreader"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_xyzreader" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/image_capstone"
+                layout="@layout/inc_image_capstone" />
+
+            <include
+                layout="@layout/inc_button_capstone"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image_capstone" />
+        </RelativeLayout>
+    </TableRow>
+</TableLayout>
